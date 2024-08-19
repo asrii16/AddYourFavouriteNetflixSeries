@@ -1,0 +1,43 @@
+
+.container
+{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 50px;
+}
+.container1
+{
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+}
+#seriesInput
+{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+.add-series-button
+{
+  padding: 10px;
+  width: 70px;
+  background-color: #5d5b5b;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.sort-button
+{
+ padding: 10px;
+ border: none;
+ cursor: pointer;
+ align-items: center;
+ margin-left: 20px;
+}
+#search1
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}

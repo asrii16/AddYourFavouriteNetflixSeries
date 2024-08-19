@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    background-image:url('assets/images/background.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+     height: 100vh; 
+   
+   
+  
+}

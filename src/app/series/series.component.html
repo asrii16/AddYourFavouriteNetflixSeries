@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Add Your Favorite Netflix Series:</h2>
+    <input type="text" placeholder="Enter series name" id="seriesInput">
+    <button class="add-series-button" (click)="addSeries()">Add</button>
+</div>
+
+    <div class="container1">
+        <input type="text" id="search1" placeholder="Search Series" (input)="searchSeries($event)">
+        <button class="sort-button" (click)="sortAlphabetically()">
+            <i class="fas fa-filter"></i>
+        </button>
+    <ul> 
+        <li *ngFor="let series of filteredSeriesList">{{series}}</li>
+    </ul>
+    </div>
